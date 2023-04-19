@@ -1,2 +1,3 @@
-# packages-templates
-Repository with the templates of the packages created in BeyondJs
+# Welcome to @beyond-js/packages-templates
+
+This package contains the templates for creating packages in beyondJS
