@@ -9,3 +9,6 @@ export /*bundle*/ const TEMPLATES = [
     {name: 'node', platforms: ['node']},
     {name: 'backend', platforms: ['backend']}
 ];
+
+export /*bundle*/
+const TYPES = ['empty', 'web', 'backend', 'web-backend', 'node', 'express', 'react', 'svelte', 'vue'];
