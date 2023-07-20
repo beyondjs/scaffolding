@@ -1,6 +1,6 @@
-# @beyond-js/scaffold
+# @beyond-js/scaffolding
 
-`@beyond-js/scaffold` is a command-line tool that helps you generate the basic structure for packages and modules within the BeyondJS framework. It provides an interactive way to create packages and modules, allowing you to quickly set up your applications, websites, functions, or modules.
+`@beyond-js/scaffolding` is a command-line tool that helps you generate the basic structure for packages and modules within the BeyondJS framework. It provides an interactive way to create packages and modules, allowing you to quickly set up your applications, websites, functions, or modules.
 
 ## Installation
 
