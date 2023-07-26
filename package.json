@@ -1,26 +1,29 @@
 {
-  "name": "@beyond-js/packages-templates",
-  "version": "1.0.0",
-  "title": "BeyondJs Packages Templates",
-  "description": "Repository with the templates of the packages created in BeyondJs",
-  "license": "MIT",
-  "modules": {
-    "path": "modules"
-  },
-  "deployment": {
-    "distributions": [
-      {
-        "name": "web",
-        "environment": "development",
-        "ssr": "",
-        "platform": "web",
-        "ports": {
-          "bundles": "6500"
-        }
-      }
-    ]
-  },
-  "dependencies": {
-    "@beyond-js/kernel": "^0.1.9"
-  }
+	"name": "@beyond-js/scaffolding",
+	"version": "1.0.0",
+	"title": "BeyondJs Scaffolding",
+	"description": "A comprehensive scaffolding tool for BeyondJS packages, providing templates and an interactive interface for generating the initial structure effortlessly.",
+	"license": "MIT",
+	"modules": {
+		"path": "modules"
+	},
+	"deployment": {
+		"distributions": [
+			{
+				"name": "web",
+				"environment": "development",
+				"ssr": "",
+				"platform": "web",
+				"ports": {
+					"bundles": "6500"
+				}
+			}
+		]
+	},
+	"dependencies": {
+		"@beyond-js/kernel": "^0.1.9"
+	},
+	"devDependencies": {
+		"@beyond-js/local": "^0.1.3"
+	}
 }
