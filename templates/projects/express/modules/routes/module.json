@@ -1,10 +1,7 @@
 {
-  "name": "routes",
-  "platforms": "node",
-  "ts": {
-    "path": "ts",
-    "files": [
-      "*"
-    ]
-  }
+	"name": "routes",
+	"platforms": "node",
+	"ts": {
+		"files": ["*"]
+	}
 }
