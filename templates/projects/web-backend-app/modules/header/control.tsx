@@ -1,11 +1,11 @@
-import * as React from "react";
+import * as React from 'react';
 
 export /*bundle*/
 type AppProps = {
-    message: string;
+	message: string;
 };
 
 export /*bundle*/
-const Header = ({message}: AppProps): JSX.Element => {
-    return <h2>{message}</h2>;
-}
+const Header = ({ message }: AppProps): JSX.Element => {
+	return <h2>{message}</h2>;
+};

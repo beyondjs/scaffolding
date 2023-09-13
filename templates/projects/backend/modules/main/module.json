@@ -1,5 +1,5 @@
 {
-  "name": "main",
-  "bundle": "start",
-  "files": "*"
+	"name": "main",
+	"bundle": "start",
+	"files": "*"
 }

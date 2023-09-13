@@ -1,9 +1,7 @@
 {
-  "name": "main",
-  "ts": {
-    "path": "ts",
-    "files": [
-      "*"
-    ]
-  }
+	"name": "main",
+	"ts": {
+		"path": "ts",
+		"files": ["*"]
+	}
 }

@@ -1,8 +1,7 @@
 {
-  "name": "provider",
-  "platforms": "backend",
-  "ts": {
-    "path": "./ts",
-    "files": "*"
-  }
+	"name": "provider",
+	"platforms": "backend",
+	"ts": {
+		"files": "*"
+	}
 }
