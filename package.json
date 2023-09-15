@@ -1,7 +1,7 @@
 {
 	"name": "@beyond-js/scaffolding",
 	"version": "1.0.3",
-	"title": "BeyondJs Scaffolding",
+	"title": "BeyondJS Scaffolding",
 	"description": "A comprehensive scaffolding tool for BeyondJS packages, providing templates and an interactive interface for generating the initial structure effortlessly.",
 	"license": "MIT",
 	"repository": "github:beyondjs/scaffolding",
@@ -26,5 +26,10 @@
 	},
 	"devDependencies": {
 		"@beyond-js/local": "^0.1.3"
+	},
+	"static": {
+		"includes": [
+			"assets"
+		]
 	}
 }
