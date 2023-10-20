@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-@import './mixins/button-styles';
 @mixin properties() {
 	--text-color: #1a1a1a;
 	--altern-text-color: var(--background);
