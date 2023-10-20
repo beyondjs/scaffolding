@@ -4,6 +4,7 @@
 	"title": "Node JS Basic Application",
 	"description": "Node JS Basic application",
 	"author": "",
+	"repository": "",
 	"license": "ISC",
 	"languages": {
 		"default": "en",

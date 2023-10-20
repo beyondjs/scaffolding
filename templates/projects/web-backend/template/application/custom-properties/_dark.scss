@@ -1,42 +1,48 @@
 @mixin properties() {
-	--text-color: #f2ecff;
-	--altern-text-color: var(--background);
-	--secondary-text-color: var(--secondary);
-	--font-family: 'Poppins', sans-serif;
+	--text-color: #fff;
 
-	--primary: #444444;
-	--on-primary: #bbbbbb;
-	--primary-container: #222222;
-	--on-primary-container: #dddddd;
+	--primary: var(--primary-80);
+	--primary-container: var(--primary-30);
+	--on-primary: #fff;
+	--on-primary-container: var(--primary-90);
+	--inverse-primary: var(--primary-40);
 
-	--secondary: #666666;
-	--on-secondary: #999999;
-	--secondary-container: #444444;
-	--on-secondary-container: #bbbbbb;
+	--secondary: var(--secondary-80);
+	--secondary-container: var(--secondary-30);
+	--on-secondary: #fff;
+	--on-secondary-container: var(--secondary-90);
 
-	--tertiary: #888888;
-	--on-tertiary: #777777;
-	--tertiary-container: #666666;
-	--on-tertiary-container: #999999;
+	--tertiary: var(--tertiary-80);
+	--tertiary-container: var(--tertiary-30);
+	--on-tertiary: var(--tertiary-20);
+	--on-tertiary-container: var(--tertiary-90);
 
-	--error: #444444;
-	--on-error: #bbbbbb;
-	--error-container: #222222;
-	--on-error-container: #dddddd;
+	--surface: var(--neutral-10);
+	--surface-dim: var(--neutral-12);
+	--surface-bright: var(--neutral-25);
+	--surface-container-lowest: var(--neutral-4);
+	--surface-container-low: var(--neutral-10);
+	--surface-container: var(--neutral-12);
+	--surface-container-high: var(--neutral-20);
+	--surface-container-highest: var(--neutral-22);
+	--surface-variant: var(--neutral-variant-30);
+	--surface-tint-color: var(--md.sys.color.primary);
+	--on-surface: var(--neutral-90);
+	--on-surface-variant: var(--neutral-variant-80);
+	--inverse-surface: var(--neutral-90);
+	--inverse-on-surface: var(--neutral-20);
 
-	--background: #000000;
-	--on-background: #ffffff;
-	--surface: #222222;
+	--background: var(--neutral-6);
+	--on-background: var(--neutral-90);
 
-	--outline: #888888;
+	--error: var(--error-80);
+	--error-container: var(--error-30);
+	--on-error: var(--error-20);
+	--on-error-container: var(--error-90);
 
-	--on-surface: #dddddd;
-	--surface-variant: #444444;
-	--on-surface-variant: #bbbbbb;
+	--outline: var(--neutral-variant-60);
+	--outline-variant: var(--neutral-variant-30);
 
-	--info-container: #2196f3;
-	--warning-container: #ffc107;
-	--error-container: #cf6679;
-	--background-color: #121212;
-	--success-container: #388e3c;
+	--shadow: var(--neutral-0);
+	--scrim: var(--neutral-0);
 }

@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"description": "",
 	"author": "",
+	"repository": "",
 	"license": "ISC",
 	"layout": "main-layout",
 	"template": "template/template.json",

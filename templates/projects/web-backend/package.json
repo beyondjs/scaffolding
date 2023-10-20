@@ -2,6 +2,7 @@
 	"name": "web-backend",
 	"version": "0.0.1",
 	"author": "",
+	"repository": "",
 	"license": "ISC",
 	"title": "Basic Web-Backend Application",
 	"description": "Basic Web Backend application",

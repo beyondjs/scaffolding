@@ -4,6 +4,7 @@
 	"title": "Basic Web-Backend Application",
 	"description": "Basic Web Backend application",
 	"author": "",
+	"repository": "",
 	"license": "ISC",
 	"template": "template/template.json",
 	"layout": "main-layout",
