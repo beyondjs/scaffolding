@@ -1,7 +1,0 @@
-{
-	"name": "provider",
-	"platforms": "backend",
-	"ts": {
-		"files": "*"
-	}
-}

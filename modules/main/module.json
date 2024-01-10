@@ -1,7 +1,0 @@
-{
-	"name": "main",
-	"ts": {
-		"path": "ts",
-		"files": ["*"]
-	}
-}
