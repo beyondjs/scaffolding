@@ -1,11 +1,19 @@
 @use 'dark';
 @use 'light';
-@import 'material-design';
+@use 'alerts';
+@import 'neutral-palette';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 :root {
-	--font-family: 'Roboto', sans-serif;
+	--font-family: 'Rubik', sans-serif;
 	--secondary-font-family: 'Roboto', sans-serif;
-	--border-radius-base: 8px;
+
+	--border-radius-sm: 6px;
+	--border-radius-base: 10px;
+	--border-radius-lg: 25px;
+	@include neutral-palette();
+
+	@include alerts.properties();
 	@include light.properties();
 	@media (prefers-color-scheme: dark) {
 		@include dark.properties();

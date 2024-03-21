@@ -1,9 +1,9 @@
-import { ReactWidgetController } from '@beyond-js/react-18-widgets/base';
+import { PageReactWidgetController } from '@beyond-js/react-18-widgets/page';
 import { StoreManager } from './store';
 import { Widget } from './views';
 
 export /*bundle*/
-class Controller extends ReactWidgetController {
+class Controller extends PageReactWidgetController {
 	#store: StoreManager;
 	createStore() {
 		this.#store = new StoreManager();
@@ -12,4 +12,14 @@ class Controller extends ReactWidgetController {
 	get Widget() {
 		return Widget;
 	}
+
+	/**
+	 * this method is executed when the widget is showd
+	 */
+	show() {}
+
+	/**
+	 * this method is executed when the widget is hidden
+	 */
+	hide() {}
 }

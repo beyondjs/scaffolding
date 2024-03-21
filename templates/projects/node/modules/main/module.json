@@ -1,7 +1,7 @@
 {
-  "name": "main",
-  "bundle": "start",
-  "ts": {
-    "files": "*"
-  }
+	"name": "main",
+	"bundle": "start",
+	"ts": {
+		"files": "*"
+	}
 }

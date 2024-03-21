@@ -1,8 +1,8 @@
 {
-  "name": "start-backend",
-  "bundle": "start",
-  "platforms": "backend",
-  "ts": {
-    "files": "*"
-  }
+	"name": "start-backend",
+	"bundle": "start",
+	"platforms": "backend",
+	"ts": {
+		"files": "*"
+	}
 }
