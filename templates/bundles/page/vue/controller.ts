@@ -1,5 +1,5 @@
 import { PageVueWidgetController } from '@beyond-js/vue-widgets/page';
-import Widget from './widget.vue';
+import Widget from './view/index.vue';
 
 export /*bundle*/
 class Controller extends PageVueWidgetController {
