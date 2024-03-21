@@ -1,6 +1,12 @@
-import * as React from "react";
+import React from 'react';
+import { ModuleContext } from './context';
 
 export /*bundle*/
-function View(): JSX.Element {
-    return <div>BeyondJS module</div>;
+function View({ store }): JSX.Element {
+	const contextValue = { store };
+	return (
+		<ModuleContext.Provider value={contextValue}>
+			<div>BeyondJS module</div>;
+		</ModuleContext.Provider>
+	);
 }
