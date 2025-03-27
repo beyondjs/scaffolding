@@ -17,7 +17,7 @@
 		"path": "./modules"
 	},
 	"dependencies": {
-		"@beyond-js/kernel": "~0.1.9",
+		"@beyond-js/kernel": "~0.1.10",
 		"socket.io-client": "^4.5.4"
 	},
 	"devDependencies": {
